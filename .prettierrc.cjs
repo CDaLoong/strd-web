@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['prettier-plugin-tailwindcss'],
   tabWidth: 2, // 指定每个缩进级别的空格数
   useTabs: false, // 使用制表符而不是空格缩进行
   semi: false, // 在语句末尾不打印分号
@@ -15,5 +14,6 @@ module.exports = {
   proseWrap: 'never', // 不换行Markdown文本
   htmlWhitespaceSensitivity: 'css', // HTML文件中的空格敏感度依赖于CSS
   vueIndentScriptAndStyle: false, // 不缩进Vue文件中的script和style标签
-  endOfLine: 'lf' // 使用 \n 作为换行符
+  endOfLine: 'lf', // 使用 \n 作为换行符
+  plugins: ['prettier-plugin-tailwindcss']
 }
